@@ -1,0 +1,133 @@
+/* BODY */
+
+body {display:flex;
+    flex-direction: column;
+    }
+    
+    /* HEADER */
+    
+    .navigation {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+    }
+    
+    .inline-block {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .logo {
+        width: 23%;
+        padding: 2%;
+        text-align: center;
+    }
+    
+    nav ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    nav li {
+        padding: 10px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    /* HERO IMAGE */
+    
+    .heroimg {
+        background: radial-gradient(circle at 10% 20%, rgb(220, 217, 249) 0%, rgb(172, 224, 217) 89.8%);
+     width:100%;
+     height:auto;
+     text-align: center;
+     padding:50px;
+    }
+    
+    
+    .my-name {font-size: 60px;}
+    
+    .text {font-size: 40px;
+    padding-left: 300px;
+    padding-right:300px;
+    text-align: center;}
+    
+    img {border-radius: 50%;}
+    
+    /* FOOTER */
+    
+    footer {background-color: #E0E3F1;
+    margin-top:auto;
+    position:relative;
+    height: fit-content;
+    padding:50px;
+    width: 100%;}
+    
+    .footer-content {background-color: #E0E3F1;
+    display:flex;
+    text-align: center;
+    height: fit-content;
+    padding:50px;}
+    
+    .content-section {
+      flex: 1;
+    flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .footer-bottom { background: #E0E3F1;
+        color: black;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        position:absolute;
+        bottom: 0px;
+        left: 0px;
+        padding: 20px;
+        font-size: 20px;
+        }
+    
+        .button {background-color: black
+            color:white;}
+    
+    
+    .form textarea{
+      width: 500px;
+    }
+    #mess{
+      height: 100px;
+    }
+    .icons {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .icons div {
+        display: flex;
+        align-items: start;
+        margin-right: 20px;
+      flex-direction: row;
+    }
+    
+    .icons img {
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+    
+    .icons p {
+        font-family: "Lorem Ipsum", sans-serif;
+    }
+    
+    h1 {text-align: left; }
+    
